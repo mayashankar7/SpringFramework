@@ -2,17 +2,16 @@ package com.example.SpringFramework.game;
 
 public class GameRunner {
 
-    MarioGame marioGame;
-
-    public GameRunner(MarioGame marioGame) {
-        this.marioGame = marioGame;
+    private GamingConsole game;
+    public GameRunner(GamingConsole game) {
+        this.game = game;
     }
 
     public void run() {
-        System.out.println("Running the game: "+marioGame);
-        marioGame.up();
-        marioGame.down();
-        marioGame.left();
-        marioGame.right();
+        System.out.println("Running the game: "+game);
+        game.up();
+        game.down();
+        game.left();
+        game.right();
     }
 }
