@@ -1,4 +1,4 @@
-package com.example.SpringFramework;
+package com.example.SpringFramework.helloWorld;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
